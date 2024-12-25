@@ -28,7 +28,9 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 
 ## Repository Structure
 
-Fetal_Health_Classification/ ├── data/ │ ├── fetal_health.csv # Dataset │ ├── processed_data.csv # Preprocessed dataset (optional) ├── notebooks/ │ ├── fetal_health.ipynb # Exploratory Data Analysis notebook │ ├── Model_Training.ipynb # Model training and evaluation notebook ├── src/ │ ├── fetal_health.py # Preprocessing scripts │ ├── fetal_health_load.py # Model training script │ ├── fetal_health_predict.py # Prediction script ├── Dockerfile # Docker configuration ├── requirements.txt # Python dependencies ├── README.md # Project README file └── LICENSE # Project license
+Fetal_Health_Classification/ ├── data/ │ ├── fetal_health.csv # Dataset │ ├── processed_data.csv # Preprocessed dataset (optional) ├── notebooks/ │ ├── EDA.ipynb # Exploratory Data Analysis notebook │ ├── Model_Training.ipynb # Model training and evaluation notebook ├── src/ │ ├── preprocess.py # Preprocessing scripts │ ├── train.py # Model training script │ ├── predict.py # Prediction script ├── Dockerfile # Docker configuration ├── requirements.txt # Python dependencies ├── README.md # Project README file └── LICENSE # Project license
+
+
 
 
 ## Data Description
