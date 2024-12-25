@@ -28,7 +28,7 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 7. [Suggestions for Improvement](#suggestions-for-improvement)
 
 ## Repository Structure
-
+```sh
 Fetal_Health_Classification/
 ├── data/
 │   ├── fetal_health.csv       # Dataset
@@ -47,7 +47,7 @@ Fetal_Health_Classification/
 
 
 
-
+```
 ## Data Description
 
 - `fetal_health.csv`: Contains the raw dataset with features extracted from Cardiotocogram exams.
