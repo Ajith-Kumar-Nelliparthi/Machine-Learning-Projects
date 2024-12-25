@@ -48,12 +48,10 @@ Ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
-
-```sh
 git clone https://github.com/Ajith-Kumar-Nelliparthi/Machine-Learning-Projects.git
 cd Machine-Learning-Projects/Fetal_Health_Classification
 
-## Install dependencies:
+2.Install dependencies:
 
 pip install -r requirements.txt
 
