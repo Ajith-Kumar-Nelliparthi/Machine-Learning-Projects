@@ -14,7 +14,7 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 - Suspect
 - Pathological
 
-![Dataset Card](https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47)
+[![Dataset Card](https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47)](https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47)
 
 ## Table of Contents
 
@@ -48,47 +48,52 @@ Ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
+```sh
 git clone https://github.com/Ajith-Kumar-Nelliparthi/Machine-Learning-Projects.git
 cd Machine-Learning-Projects/Fetal_Health_Classification
-
+```
 2.Install dependencies:
-
+```sh
 pip install -r requirements.txt
-
-Local Setup
+```
+## Local Setup
 Run the preprocessing script:
+```sh
 python src/fetal_health.py
-
-Train the model:
+```
+## Train the model:
+```sh
 python src/fetal_health_load.py
-
-Make predictions:
+```
+## Make predictions:
+```sh
 python src/fetal_health_predict.py
-
-Docker Setup
+```
+## Docker Setup
 Build the Docker image:
+```sh
 docker build -t fetal-health-classification .
-
+```
 Run the Docker container:
+```sh
 docker run -it --rm -p 5000:5000 fetal-health-classification
-
+```
 Access the application (if applicable) at http://localhost:5000.
-Suggestions for Improvement
+## Suggestions for Improvement
 Here are some suggestions to enhance the project:
-
-Improve Documentation
+### Improve Documentation
 Add more detailed descriptions of the features.
 Include visuals for exploratory data analysis (EDA) in the README or notebooks.
-Model Interpretability
+### Model Interpretability
 Integrate SHAP or LIME for feature importance and explainability.
-Scalability
+### Scalability
 Deploy the model using Flask/FastAPI and serve it via a REST API.
 Provide a live demo or link to a hosted web app.
-Testing
+### Testing
 Add unit tests for the preprocessing and training scripts.
-Docker Enhancements
+### Docker Enhancements
 Create a docker-compose.yml file to simplify multi-container setups.
-Continuous Integration
+### Continuous Integration
 Set up CI/CD pipelines with GitHub Actions for automated testing and deployment.
 
 
