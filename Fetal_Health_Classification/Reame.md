@@ -94,30 +94,3 @@ docker run -it --rm -p 5000:5000 fetal-health-classification
 ![Screenshot 2024-12-24 210953](https://github.com/user-attachments/assets/83b43336-d269-46da-b81d-927df5c7c49d)
 
 Access the application (if applicable) at http://localhost:5000.
-## Suggestions for Improvement
-
-Here are some suggestions to enhance the project:
-
-1.Improve Documentation
-``
-Add more detailed descriptions of the features.
-Include visuals for exploratory data analysis (EDA) in the README or notebooks.
-2.Model Interpretability
-``
-Integrate SHAP or LIME for feature importance and explainability.
-3.Scalability
-``
-Deploy the model using Flask/FastAPI and serve it via a REST API.
-Provide a live demo or link to a hosted web app.
-4.Testing
-``
-Add unit tests for the preprocessing and training scripts.
-5.Docker Enhancements
-``
-Create a docker-compose.yml file to simplify multi-container setups.
-6.Continuous Integration
-``
-Set up CI/CD pipelines with GitHub Actions for automated testing and deployment.
-
-
-
