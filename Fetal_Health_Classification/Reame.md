@@ -93,8 +93,11 @@ Run the Docker container:
 ```sh
 docker run -it --rm -p 5000:5000 fetal-health-classification
 ```
+![Screenshot 2024-12-24 210953](https://github.com/user-attachments/assets/83b43336-d269-46da-b81d-927df5c7c49d)
+
 Access the application (if applicable) at http://localhost:5000.
 ## Suggestions for Improvement
+
 ###Here are some suggestions to enhance the project:
 ###1.Improve Documentation
 ###Add more detailed descriptions of the features.
