@@ -1,1 +1,7 @@
-
+python
+numpy
+flask
+scikit-learn
+gunicorn
+waitress
+docker
