@@ -14,7 +14,7 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 - Suspect
 - Pathological
 
-[![Dataset Card](https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47)](https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47)
+https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47
 
 ## Table of Contents
 
@@ -28,7 +28,19 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 
 ## Repository Structure
 
-Fetal_Health_Classification/ ├── data/ │ ├── fetal_health.csv # Dataset │ ├── processed_data.csv # Preprocessed dataset (optional) ├── notebooks/ │ ├── EDA.ipynb # Exploratory Data Analysis notebook │ ├── Model_Training.ipynb # Model training and evaluation notebook ├── src/ │ ├── preprocess.py # Preprocessing scripts │ ├── train.py # Model training script │ ├── predict.py # Prediction script ├── Dockerfile # Docker configuration ├── requirements.txt # Python dependencies ├── README.md # Project README file └── LICENSE # Project license
+Fetal_Health_Classification/ 
+├── data/ 
+│ ├── fetal_health.csv # Dataset 
+├── notebooks/ 
+│ ├── fetal_health_prediction.ipynb # Exploratory Data Analysis notebook 
+├── src/ 
+│ ├── fetal_health_predict.py # Preprocessing scripts 
+│ ├── fetal_health_load.py # Model training script 
+│ ├── fetal_health_predict.py # Prediction script 
+├── Dockerfile # Docker configuration 
+├── requirements.txt # Python dependencies 
+├── README.md # Project README file 
+└── LICENSE # Project license
 
 
 
