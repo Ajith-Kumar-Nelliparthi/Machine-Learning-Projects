@@ -14,7 +14,8 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 - Suspect
 - Pathological
 
-https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b16217a54a513f0d94628a/dataset-card.png?t=2020-10-12-00-50-47
+![dataset-card](https://github.com/user-attachments/assets/61b1ac32-e823-481c-b533-aaacbfa1b084)
+
 
 ## Table of Contents
 
@@ -28,19 +29,21 @@ https://storage.googleapis.com/kaggle-datasets-images/916586/1553068/ddd9373754b
 
 ## Repository Structure
 
-Fetal_Health_Classification/ 
-├── data/ 
-│ ├── fetal_health.csv # Dataset 
-├── notebooks/ 
-│ ├── fetal_health_prediction.ipynb # Exploratory Data Analysis notebook 
-├── src/ 
-│ ├── fetal_health_predict.py # Preprocessing scripts 
-│ ├── fetal_health_load.py # Model training script 
-│ ├── fetal_health_predict.py # Prediction script 
-├── Dockerfile # Docker configuration 
-├── requirements.txt # Python dependencies 
-├── README.md # Project README file 
-└── LICENSE # Project license
+Fetal_Health_Classification/
+├── data/
+│   ├── fetal_health.csv       # Dataset
+│   ├── processed_data.csv     # Preprocessed dataset (optional)
+├── notebooks/
+│   ├── EDA.ipynb              # Exploratory Data Analysis notebook
+│   ├── Model_Training.ipynb   # Model training and evaluation notebook
+├── src/
+│   ├── preprocess.py          # Preprocessing scripts
+│   ├── train.py               # Model training script
+│   ├── predict.py             # Prediction script
+├── Dockerfile                 # Docker configuration
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project README file
+└── LICENSE                    # Project license
 
 
 
@@ -93,19 +96,19 @@ docker run -it --rm -p 5000:5000 fetal-health-classification
 Access the application (if applicable) at http://localhost:5000.
 ## Suggestions for Improvement
 Here are some suggestions to enhance the project:
-### Improve Documentation
+1.Improve Documentation
 Add more detailed descriptions of the features.
 Include visuals for exploratory data analysis (EDA) in the README or notebooks.
-### Model Interpretability
+2.Model Interpretability
 Integrate SHAP or LIME for feature importance and explainability.
-### Scalability
+3.Scalability
 Deploy the model using Flask/FastAPI and serve it via a REST API.
 Provide a live demo or link to a hosted web app.
-### Testing
+4.Testing
 Add unit tests for the preprocessing and training scripts.
-### Docker Enhancements
+5.Docker Enhancements
 Create a docker-compose.yml file to simplify multi-container setups.
-### Continuous Integration
+6.Continuous Integration
 Set up CI/CD pipelines with GitHub Actions for automated testing and deployment.
 
 
