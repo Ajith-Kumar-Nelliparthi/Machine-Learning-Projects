@@ -56,8 +56,8 @@ The project includes data preprocessing, model training, evaluation, and deploym
 → stroke_prediction.py: Python script for data preprocessing, model training, and evaluation.
 
 ## Prerequisites
-Python 3.8 or higher
-pipenv for managing dependencies
+Python 3.8 or higher\
+pipenv for managing dependencies\
 Docker (optional, for containerization)
 
 ## Installation
