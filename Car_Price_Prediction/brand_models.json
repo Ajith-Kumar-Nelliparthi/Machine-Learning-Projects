@@ -1,0 +1,44 @@
+{
+    "Audi": [
+        "A4",
+        "Q7",
+        "Q5",
+        "A3"
+    ],
+    "BMW": [
+        "5 Series",
+        "X3",
+        "X5",
+        "3 Series"
+    ],
+    "Ford": [
+        "Mustang",
+        "Explorer",
+        "Fiesta",
+        "Focus"
+    ],
+    "Honda": [
+        "Civic",
+        "CR-V",
+        "Accord",
+        "Fit"
+    ],
+    "Mercedes": [
+        "GLA",
+        "C-Class",
+        "E-Class",
+        "GLC"
+    ],
+    "Tesla": [
+        "Model X",
+        "Model Y",
+        "Model 3",
+        "Model S"
+    ],
+    "Toyota": [
+        "Camry",
+        "Corolla",
+        "Prius",
+        "RAV4"
+    ]
+}

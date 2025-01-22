@@ -1,0 +1,89 @@
+{
+    "brand": [
+        "category",
+        [
+            "Honda",
+            "BMW",
+            "Mercedes",
+            "Audi",
+            "Tesla",
+            "Toyota",
+            "Ford"
+        ]
+    ],
+    "year": [
+        "numeric",
+        "int64",
+        2000,
+        2023
+    ],
+    "engine_size": [
+        "numeric",
+        "float64",
+        1.0,
+        6.0
+    ],
+    "fuel_type": [
+        "category",
+        [
+            "Petrol",
+            "Electric",
+            "Hybrid",
+            "Diesel"
+        ]
+    ],
+    "transmission": [
+        "category",
+        [
+            "Manual",
+            "Automatic"
+        ]
+    ],
+    "mileage": [
+        "numeric",
+        "int64",
+        56,
+        299461
+    ],
+    "condition": [
+        "category",
+        [
+            "New",
+            "Like New",
+            "Used"
+        ]
+    ],
+    "model": [
+        "category",
+        [
+            "Accord",
+            "X5",
+            "C-Class",
+            "A3",
+            "CR-V",
+            "GLC",
+            "A4",
+            "Model 3",
+            "Model X",
+            "RAV4",
+            "GLA",
+            "Fit",
+            "Focus",
+            "Camry",
+            "Explorer",
+            "Prius",
+            "3 Series",
+            "Q5",
+            "Civic",
+            "Model Y",
+            "Mustang",
+            "Model S",
+            "Fiesta",
+            "X3",
+            "Q7",
+            "5 Series",
+            "E-Class",
+            "Corolla"
+        ]
+    ]
+}
