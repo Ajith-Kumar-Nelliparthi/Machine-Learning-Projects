@@ -1,0 +1,3 @@
+pamdas
+numpy
+scikit-learn
