@@ -8,6 +8,7 @@ The dataset is used for exploratory data analysis (EDA) and to develop classific
 
 ## Table of Contents
 - [Project Description](#project-description)
+- [Dataset Overview](#dataset-overview)
 - [Table of Contents](#table-of-contents)
 - [Repository Structure](#repository-structure)
 - [Prerequisites](#prerequisites)
@@ -18,6 +19,29 @@ The dataset is used for exploratory data analysis (EDA) and to develop classific
 ## Project Description
 The PCOS Prediction project aims to provide a machine learning model that predicts the likelihood of Polycystic Ovary Syndrome (PCOS) based on various user inputs. 
 The application is built using Flask for the backend and serves a web interface for user interaction.
+
+## Dataset Overview
+Describe the columns and their data types.
+
+Example: The dataset includes the following columns:
+
+1. Country: The country of origin (Categorical).
+2. Age: Age of the individual (Numerical).
+3. BMI: Body Mass Index category (Categorical: Overweight, Normal, Underweight).
+4. Menstrual Regularity: Whether menstrual cycles are regular or irregular (Categorical).
+5. Hirsutism: The severity of excess body hair growth (Categorical).
+6. Acne Severity: Acne severity (Categorical).
+7. Family History of PCOS: Whether the individual has a family history of PCOS (Categorical: Yes/No).
+8. Insulin Resistance: Whether insulin resistance is present (Categorical: Yes/No).
+9. Lifestyle Score: A score reflecting lifestyle habits (Numerical).
+10. Stress Levels: Stress levels (Numerical).
+11. Urban/Rural: Whether the individual lives in an urban or rural area (Categorical).
+12. Socioeconomic Status: Socioeconomic status of the individual (Categorical).
+13. Awareness of PCOS: Whether the individual is aware of PCOS (Categorical: Yes/No).
+14. Fertility Concerns: Whether the individual has fertility concerns (Categorical: Yes/No).
+15. Undiagnosed PCOS Likelihood: The likelihood of having undiagnosed PCOS (Numerical).
+16. Ethnicity: Ethnic background (Categorical).
+17. Diagnosis: PCOS diagnosis outcome (Categorical: Yes/No).
 
 ## Repository Structure
 ```
