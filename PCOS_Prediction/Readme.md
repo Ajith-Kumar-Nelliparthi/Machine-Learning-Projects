@@ -79,7 +79,7 @@ Example: The dataset includes the following columns:
 
 2. Install the required Python packages:
    ```bash
-   pip install -r backend/requirements.txt
+   pip install -r requirements.txt
    ```
 
 3. Install dependencies using Pipenv:
