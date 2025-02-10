@@ -44,6 +44,7 @@ Mushroom_Classification/
 ├── Pipfile
 ├── Pipfile.lock
 ├── requirements.txt
+├── nn.py
 ```
 ## Prerequisites
 1.Python 3.6 or higher
