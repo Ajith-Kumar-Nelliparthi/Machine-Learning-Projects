@@ -64,7 +64,9 @@ Cardio_Vascular_Disease_Prediction/
 | ├── cardio_xgb.pkl 
 | ├── Dockerfile 
 | ├── Pipfile 
-| ├── Pipfile.lock 
+| ├── Pipfile.lock
+├──neural_nn.ipynb
+├── neural.py
 ├── requirements.txt
 └── README.md
 ```
