@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat & Dog Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Cat & Dog Classifier</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <button onclick="uploadImage()">Predict</button>
+        <p id="result"></p>
+        <img id="preview" src="" alt="Image Preview">
+    </div>
+
+    <script>
+        function uploadImage() {
+            let fileInput = document.getElementById('imageUpload');
+            let file = fileInput.files[0];
+
+            if (!file) {
+                alert("Please upload an image first.");
+                return;
+            }
+
+            let formData = new FormData();
+            formData.append("file", file);
+
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerText = `Prediction: ${data.class}`;
+            })
+            .catch(error => console.error("Error:", error));
+
+            // Preview uploaded image
+            let reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById("preview").src = e.target.result;
+            }
+            reader.readAsDataURL(file);
+        }
+    </script>
+</body>
+</html>
