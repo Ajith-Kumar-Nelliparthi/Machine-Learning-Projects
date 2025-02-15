@@ -115,7 +115,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For any queries, reach out to:
 
-GitHub: [Ajith-Kumar-Nelliparthi](https://github.com/Ajith-Kumar-Nelliparthi)
+GitHub: [Ajith-Kumar-Nelliparthi](https://github.com/Ajith-Kumar-Nelliparthi)\
 Linkedin : [Ajith Kumar Nelliparthi](https://www.linkedin.com/in/nelliparthi-ajith-233803262)
 
 
